@@ -1,0 +1,97 @@
+body {
+    padding-top: 60px;
+    background-color: black;
+    color: #ECDBBA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.game {
+
+    background-color: #191919;
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    border-style: outset;
+    border-radius: 30px;
+    transition-duration: 1.5s;
+}
+
+.game:hover {
+    transform: scale(1.2);
+    border-color: rgba(1, 243, 1, 0.318);
+    transition-duration: 1.5s;
+
+
+}
+
+button {
+    background-color: #2D4263;
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    cursor: pointer;
+    border: 0px;
+    margin-right: 20px;
+
+
+}
+
+/* hover properties for buttons*/
+.rock-btn:hover {
+    color: transparent;
+    background-image: url(images/rockh.png);
+    background-size: contain;
+}
+
+.paper-btn:hover {
+    color: transparent;
+    background-image: url(images/paperh.png);
+    background-size: contain;
+}
+
+.scissors-btn:hover {
+    color: transparent;
+    background-image: url(images/scissorh.png);
+    background-size: contain;
+}
+
+.rock-btn:active {
+    background-image: url(images/rock.png);
+    background-size: cover;
+    color: transparent;
+    transform: scale(1.5);
+    background-position: center;
+
+}
+
+.paper-btn:active {
+    background-image: url(images/paper.jpeg);
+    background-size: cover;
+    color: transparent;
+    transform: scale(1.5);
+
+}
+
+.scissors-btn:active {
+    background-image: url(images/scissor.jpeg);
+    background-size: cover;
+    color: transparent;
+    transform: scale(1.5);
+
+}
+
+.reset-btn {
+    background-color: rgb(180, 2, 2);
+}
+
+.reset-btn:active {
+    transform: scale(0.9);
+}
+
+.by {
+    align-self: flex-end;
+    opacity: 0.05;
+}

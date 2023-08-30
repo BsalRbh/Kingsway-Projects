@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    color: #ECDBBA;
+}
+
+h1 {
+    text-align: center;
+}
+
+.instructions {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #191919;
+}
+
+ol {
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.decision-image {
+    width: 100%;
+}
